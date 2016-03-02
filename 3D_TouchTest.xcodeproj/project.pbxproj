@@ -15,6 +15,7 @@
 		E177E4541C872B020025229C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E177E4521C872B020025229C /* LaunchScreen.storyboard */; };
 		E177E45F1C872B020025229C /* _D_TouchTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E177E45E1C872B020025229C /* _D_TouchTestTests.m */; };
 		E177E46A1C872B020025229C /* _D_TouchTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E177E4691C872B020025229C /* _D_TouchTestUITests.m */; };
+		E177E4781C873E400025229C /* jiahao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E177E4771C873E400025229C /* jiahao@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E177E4651C872B020025229C /* 3D_TouchTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3D_TouchTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E177E4691C872B020025229C /* _D_TouchTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _D_TouchTestUITests.m; sourceTree = "<group>"; };
 		E177E46B1C872B020025229C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E177E4771C873E400025229C /* jiahao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jiahao@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +103,11 @@
 		E177E4431C872B020025229C /* 3D_TouchTest */ = {
 			isa = PBXGroup;
 			children = (
+				E177E4771C873E400025229C /* jiahao@2x.png */,
 				E177E4471C872B020025229C /* AppDelegate.h */,
 				E177E4481C872B020025229C /* AppDelegate.m */,
 				E177E44A1C872B020025229C /* ViewController.h */,
 				E177E44B1C872B020025229C /* ViewController.m */,
-				E177E44D1C872B020025229C /* Main.storyboard */,
-				E177E4501C872B020025229C /* Assets.xcassets */,
-				E177E4521C872B020025229C /* LaunchScreen.storyboard */,
 				E177E4551C872B020025229C /* Info.plist */,
 				E177E4441C872B020025229C /* Supporting Files */,
 			);
@@ -117,6 +117,9 @@
 		E177E4441C872B020025229C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E177E4521C872B020025229C /* LaunchScreen.storyboard */,
+				E177E44D1C872B020025229C /* Main.storyboard */,
+				E177E4501C872B020025229C /* Assets.xcassets */,
 				E177E4451C872B020025229C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -248,6 +251,7 @@
 			files = (
 				E177E4541C872B020025229C /* LaunchScreen.storyboard in Resources */,
 				E177E4511C872B020025229C /* Assets.xcassets in Resources */,
+				E177E4781C873E400025229C /* jiahao@2x.png in Resources */,
 				E177E44F1C872B020025229C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +503,7 @@
 				E177E4701C872B020025229C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E177E4711C872B020025229C /* Build configuration list for PBXNativeTarget "3D_TouchTestTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +512,7 @@
 				E177E4731C872B020025229C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E177E4741C872B020025229C /* Build configuration list for PBXNativeTarget "3D_TouchTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +521,7 @@
 				E177E4761C872B020025229C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
