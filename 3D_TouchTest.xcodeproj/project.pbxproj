@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E112D6431C88820200E509E8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E112D6421C88820200E509E8 /* SecondViewController.m */; };
 		E177E4461C872B020025229C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E177E4451C872B020025229C /* main.m */; };
 		E177E4491C872B020025229C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E177E4481C872B020025229C /* AppDelegate.m */; };
 		E177E44C1C872B020025229C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E177E44B1C872B020025229C /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E112D6411C88820200E509E8 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E112D6421C88820200E509E8 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		E177E4411C872B020025229C /* 3D_TouchTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3D_TouchTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E177E4451C872B020025229C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E177E4471C872B020025229C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +111,8 @@
 				E177E4481C872B020025229C /* AppDelegate.m */,
 				E177E44A1C872B020025229C /* ViewController.h */,
 				E177E44B1C872B020025229C /* ViewController.m */,
+				E112D6411C88820200E509E8 /* SecondViewController.h */,
+				E112D6421C88820200E509E8 /* SecondViewController.m */,
 				E177E4551C872B020025229C /* Info.plist */,
 				E177E4441C872B020025229C /* Supporting Files */,
 			);
@@ -277,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E112D6431C88820200E509E8 /* SecondViewController.m in Sources */,
 				E177E44C1C872B020025229C /* ViewController.m in Sources */,
 				E177E4491C872B020025229C /* AppDelegate.m in Sources */,
 				E177E4461C872B020025229C /* main.m in Sources */,
@@ -418,6 +424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = 3D_TouchTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.walden.-D-TouchTest";
@@ -429,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = 3D_TouchTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.walden.-D-TouchTest";
