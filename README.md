@@ -154,7 +154,7 @@ pop操作就更简单了, 在这个方法里面, 返回要pop的控制器即可.
 }
 ```
 ### 3. force属性
-UITouch和UIPress新增了force属性, 是一个float类型的值, 代表摁压的力度, 数值越大, 标示摁压的力度越大, iPhone测试最大值是: 6.666667 .
+UITouch和UIPress新增了force属性, 是一个float类型的值, 代表摁压的力度, 数值越大, 标示摁压的力度越大, iPhone 6s 测试最大值是: 6.666667 .
 
 ```
 UITouch *touch = [touches anyObject];
@@ -163,6 +163,7 @@ NSLog(@"touch force = %f", touch.force);
 
 
 
-
+### 4. 问题
+发现系统的邮箱在peek时候还有左右滑动的操作, 目前还不知道这个是怎么实现的,, 如果谁知道请钙素我一下 
 
 3DTouch, peek时候, 左右滑动做不同的操作这个是怎么实现的 ?
