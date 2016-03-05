@@ -7,6 +7,7 @@
 //
 
 #import "SecondViewController.h"
+#import "ForceViewController.h"
 
 @interface SecondViewController ()
 
@@ -20,6 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor lightGrayColor];
+    self.title = @"second";
     
     [self configUI];
     
@@ -29,7 +31,7 @@
 
 - (void)tapGestureClick:(UITapGestureRecognizer *)tapGesture
 {
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [self.navigationController pushViewController:[[ForceViewController alloc] init] animated:YES];
 }
 
 - (void)configUI
@@ -56,9 +58,10 @@
         NSLog(@"你点击了    小赞");
     }];
     
+    NSArray *actions = @[action1, action2, action3];
+    UIPreviewActionGroup *actionsGroup = [UIPreviewActionGroup actionGroupWithTitle:@"怎么赞呢?" style:UIPreviewActionStyleDefault actions:actions];
     
-    
-    return @[action1, action2, action3];
+    return @[actionsGroup];
 }
 
 // 这个方法的返回值, 才是会显示的组, 本例使用懒加载加载数据.
@@ -73,14 +76,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

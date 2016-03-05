@@ -32,9 +32,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.title = @"first";
     
-//    UIApplicationShortcutItem
+
     [self configTableView];
 }
 
@@ -74,9 +74,8 @@
     SecondViewController *secondVC = [[SecondViewController alloc] init];
     secondVC.content = self.dataArray[indexPath.row];
     
-    dispatch_async(dispatch_get_main_queue(), ^{
-        [self presentViewController:secondVC animated:YES completion:nil];
-    });
+    [self.navigationController pushViewController:secondVC animated:YES];
+//    [self presentViewController:secondVC animated:YES completion:nil];
 }
 
 

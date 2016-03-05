@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,6 +20,10 @@
     // Override point for customization after application launch.
     
     [self createShortCutItems];
+    
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+    self.window.rootViewController = navi;
+    [self.window makeKeyAndVisible];
     
     
     return YES;
