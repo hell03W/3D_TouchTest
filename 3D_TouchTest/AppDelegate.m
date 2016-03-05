@@ -46,7 +46,8 @@
     UIApplicationShortcutItem *item2 = [[UIApplicationShortcutItem alloc] initWithType:@"second" localizedTitle:@"second item" localizedSubtitle:@"第二个" icon:icon2 userInfo:nil];
     UIApplicationShortcutItem *item3 = [[UIApplicationShortcutItem alloc] initWithType:@"third" localizedTitle:@"third item" localizedSubtitle:@"第三个" icon:icon3 userInfo:nil];
     
-    NSArray *newArray = [@[item1, item2, item3] arrayByAddingObjectsFromArray:[UIApplication sharedApplication].shortcutItems];
+//    NSArray *newArray = [@[item1, item2, item3] arrayByAddingObjectsFromArray:[UIApplication sharedApplication].shortcutItems];
+    NSArray *newArray = @[item1, item2, item3];
     
     [UIApplication sharedApplication].shortcutItems = newArray;
     

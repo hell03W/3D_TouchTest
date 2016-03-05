@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E10C14071C8AE5F100F1B2AA /* ForceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E10C14061C8AE5F100F1B2AA /* ForceViewController.m */; };
 		E10C140A1C8AEA0A00F1B2AA /* ForceView.m in Sources */ = {isa = PBXBuildFile; fileRef = E10C14091C8AEA0A00F1B2AA /* ForceView.m */; };
+		E10C140D1C8AF14300F1B2AA /* ForceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E10C140C1C8AF14300F1B2AA /* ForceViewController.m */; };
 		E112D6431C88820200E509E8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E112D6421C88820200E509E8 /* SecondViewController.m */; };
 		E177E4461C872B020025229C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E177E4451C872B020025229C /* main.m */; };
 		E177E4491C872B020025229C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E177E4481C872B020025229C /* AppDelegate.m */; };
@@ -39,10 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E10C14051C8AE5F100F1B2AA /* ForceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForceViewController.h; path = ../ForceViewController.h; sourceTree = "<group>"; };
-		E10C14061C8AE5F100F1B2AA /* ForceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForceViewController.m; path = ../ForceViewController.m; sourceTree = "<group>"; };
 		E10C14081C8AEA0A00F1B2AA /* ForceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForceView.h; sourceTree = "<group>"; };
 		E10C14091C8AEA0A00F1B2AA /* ForceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForceView.m; sourceTree = "<group>"; };
+		E10C140B1C8AF14300F1B2AA /* ForceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForceViewController.h; sourceTree = "<group>"; };
+		E10C140C1C8AF14300F1B2AA /* ForceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForceViewController.m; sourceTree = "<group>"; };
 		E112D6411C88820200E509E8 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		E112D6421C88820200E509E8 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		E177E4411C872B020025229C /* 3D_TouchTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3D_TouchTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,14 +113,14 @@
 			isa = PBXGroup;
 			children = (
 				E177E4771C873E400025229C /* jiahao@2x.png */,
+				E10C140B1C8AF14300F1B2AA /* ForceViewController.h */,
+				E10C140C1C8AF14300F1B2AA /* ForceViewController.m */,
 				E177E4471C872B020025229C /* AppDelegate.h */,
 				E177E4481C872B020025229C /* AppDelegate.m */,
 				E177E44A1C872B020025229C /* ViewController.h */,
 				E177E44B1C872B020025229C /* ViewController.m */,
 				E112D6411C88820200E509E8 /* SecondViewController.h */,
 				E112D6421C88820200E509E8 /* SecondViewController.m */,
-				E10C14051C8AE5F100F1B2AA /* ForceViewController.h */,
-				E10C14061C8AE5F100F1B2AA /* ForceViewController.m */,
 				E10C14081C8AEA0A00F1B2AA /* ForceView.h */,
 				E10C14091C8AEA0A00F1B2AA /* ForceView.m */,
 				E177E4551C872B020025229C /* Info.plist */,
@@ -292,7 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E10C14071C8AE5F100F1B2AA /* ForceViewController.m in Sources */,
+				E10C140D1C8AF14300F1B2AA /* ForceViewController.m in Sources */,
 				E112D6431C88820200E509E8 /* SecondViewController.m in Sources */,
 				E10C140A1C8AEA0A00F1B2AA /* ForceView.m in Sources */,
 				E177E44C1C872B020025229C /* ViewController.m in Sources */,
